@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GDSC" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.GDSC" parent="Base.Theme.GDSC" />
+
+    <style name="screen_background">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:src">@drawable/moon</item>
+    </style>
+
+    <style name="white"><item name="android:background">@color/white</item></style>
+
+    <style name="back_arrow">
+        <item name="android:src">@drawable/arrow_left</item>
+    </style>
+
+    <style name="rewind">
+        <item name="android:theme">@style/white</item>
+        <item name="android:src">@drawable/rewind</item>
+    </style>
+
+    <style name="play">
+        <item name="android:theme">@style/white</item>
+        <item name="android:src">@drawable/play</item>
+    </style>
+
+    <style name="fast_forward">
+        <item name="android:theme">@style/white</item>
+        <item name="android:src">@drawable/fast_forward</item>
+    </style>
+
+    <style name="shuffle">
+        <item name="android:theme">@style/white</item>
+        <item name="android:src">@drawable/shuffle</item>
+    </style>
+
+    <style name="repeat">
+        <item name="android:theme">@style/white</item>
+        <item name="android:src">@drawable/repeat</item>
+    </style>
+
+    <style name="volume_start">
+        <item name="android:theme">@style/white</item>
+        <item name="android:src">@drawable/volume_start</item>
+    </style>
+
+    <style name="volume_end">
+        <item name="android:theme">@style/white</item>
+        <item name="android:src">@drawable/volume_end</item>
+    </style>
+
+
+    <style name="artist_album_text">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GDSC</string>
+    <string name="playlist">Playlist</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album Title</string>
+    <string name="dot">·</string>
+    <string name="start_time">0:40</string>
+    <string name="end_time">3:25</string>
+</resources>

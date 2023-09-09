@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GDSC" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="screen_background">
+        <item name="android:background">@color/dark_mode_background</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:src">@drawable/sun</item>
+    </style>
+
+    <style name="dark">
+        <item name="android:background">@color/dark_mode_background</item>
+    </style>
+
+    <style name="back_arrow">
+        <item name="android:src">@drawable/dark_arrow_left</item>
+    </style>
+
+    <style name="rewind">
+        <item name="android:theme">@style/dark</item>
+        <item name="android:src">@drawable/dark_rewind</item>
+    </style>
+
+    <style name="play">
+        <item name="android:theme">@style/dark</item>
+        <item name="android:src">@drawable/dark_play</item>
+    </style>
+
+    <style name="fast_forward">
+        <item name="android:theme">@style/dark</item>
+        <item name="android:src">@drawable/dark_fast_forward</item>
+    </style>
+
+    <style name="shuffle">
+        <item name="android:theme">@style/dark</item>
+        <item name="android:src">@drawable/dark_shuffle</item>
+    </style>
+
+    <style name="repeat">
+        <item name="android:theme">@style/dark</item>
+        <item name="android:src">@drawable/dark_repeat</item>
+    </style>
+
+    <style name="volume_start">
+        <item name="android:theme">@style/dark</item>
+        <item name="android:src">@drawable/dark_volume_start</item>
+    </style>
+
+    <style name="volume_end">
+        <item name="android:theme">@style/dark</item>
+        <item name="android:src">@drawable/dark_volume_end</item>
+    </style>
+
+    <style name="artist_album_text">
+        <item name="android:textColor">@color/dark_text_blue</item>
+    </style>
+
+</resources>
